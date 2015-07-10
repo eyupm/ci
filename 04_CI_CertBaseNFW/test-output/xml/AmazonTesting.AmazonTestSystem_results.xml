@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Galaxy 4G"
+           tests="2"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="63.726">
+  <properties />
+            <testcase name="OrderBook" time="18.525" classname="AmazonTesting.AmazonTestSystem">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="Failed to execute command vnetwork start : Failed to start virtual network _emulation
+Command duration or timeout: 696 milliseconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.252.93&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{rotatable=true, deviceName=1DAA7935, platform=ANY, executionId=eugene.yu@ymcsolutions.com_PerfectoMobileDriver_15-06-13_01_45_01_17615, password=ymcDemo321!, webdriver.remote.sessionid=69e11dd4-0fe3-474a-9874-67fdf18cfbdd, host=partners.perfectomobile.com, locationContextEnabled=true, browserName=mobileOS, takesScreenshot=true, javascriptEnabled=true, model=Galaxy S5, reportKey=PRIVATE:PerfectoMobileDriver/PerfectoMobileDriver_15-06-13_01_45_01_17615.xml, platformName=Android, user=eugene.yu@ymcsolutions.com, cssSelectorsEnabled=true}]
+Session ID: 69e11dd4-0fe3-474a-9874-67fdf18cfbdd"
+              >
+<![CDATA[org.openqa.selenium.WebDriverException: Failed to execute command vnetwork start : Failed to start virtual network _emulation
+Command duration or timeout: 696 milliseconds
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Dell-PC', ip: '192.168.252.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{rotatable=true, deviceName=1DAA7935, platform=ANY, executionId=eugene.yu@ymcsolutions.com_PerfectoMobileDriver_15-06-13_01_45_01_17615, password=ymcDemo321!, webdriver.remote.sessionid=69e11dd4-0fe3-474a-9874-67fdf18cfbdd, host=partners.perfectomobile.com, locationContextEnabled=true, browserName=mobileOS, takesScreenshot=true, javascriptEnabled=true, model=Galaxy S5, reportKey=PRIVATE:PerfectoMobileDriver/PerfectoMobileDriver_15-06-13_01_45_01_17615.xml, platformName=Android, user=eugene.yu@ymcsolutions.com, cssSelectorsEnabled=true}]
+Session ID: 69e11dd4-0fe3-474a-9874-67fdf18cfbdd
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+  org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:508)
+  utilities.library.startNetworkVirtualization(library.java:82)
+  AmazonTesting.AmazonTestSystem.OrderBook(AmazonTestSystem.java:61)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Dell-PC', ip: '192.168.252.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+  org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:508)
+  utilities.library.startNetworkVirtualization(library.java:82)
+  AmazonTesting.AmazonTestSystem.OrderBook(AmazonTestSystem.java:61)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+Caused by: com.perfectomobile.httpclient.HttpClientException: Failed to execute command vnetwork start : Failed to start virtual network _emulation
+  com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:95)
+  com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:519)
+  com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:72)
+  com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:64)
+  com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:596)
+  com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:84)
+  com.perfectomobile.selenium.server.PerfectoMobileDriver.executeGenericCommand(PerfectoMobileDriver.java:327)
+  com.perfectomobile.selenium.server.PerfectoMobileDriver.executeGenericCommand(PerfectoMobileDriver.java:310)
+  com.perfectomobile.selenium.server.PerfectoMobileDriver.executeScript(PerfectoMobileDriver.java:290)
+  sun.reflect.GeneratedMethodAccessor5446.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+  com.sun.proxy.$Proxy220.executeScript(Unknown Source)
+  org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:213)
+  org.openqa.selenium.remote.server.handler.ExecuteScript.call(ExecuteScript.java:53)
+  java.util.concurrent.FutureTask.run(FutureTask.java:262)
+  org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+  java.lang.Thread.run(Thread.java:744)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="cleanUpCart" time="45.201" classname="AmazonTesting.AmazonTestSystem">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="Failed to execute command browser goto : browser-url command failed. Reason: handset server: cannot launch application.
+Command duration or timeout: 12.55 seconds
+Build info: version: &apos;2.44.0&apos;, revision: &apos;76d78cf323ce037c5f92db6c1bba601c2ac43ad8&apos;, time: &apos;2014-10-23 13:11:40&apos;
+System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.252.93&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{rotatable=true, deviceName=61944835, platform=ANY, executionId=eugene.yu@ymcsolutions.com_PerfectoMobileDriver_15-06-13_01_45_18_17617, password=ymcDemo321!, webdriver.remote.sessionid=ca7d1756-be4b-4e2a-9f30-84538e3ef13e, host=partners.perfectomobile.com, locationContextEnabled=true, browserName=mobileOS, takesScreenshot=true, javascriptEnabled=true, model=Galaxy S5, reportKey=PRIVATE:PerfectoMobileDriver/PerfectoMobileDriver_15-06-13_01_45_18_17617.xml, platformName=Android, user=eugene.yu@ymcsolutions.com, cssSelectorsEnabled=true}]
+Session ID: ca7d1756-be4b-4e2a-9f30-84538e3ef13e"
+              >
+<![CDATA[org.openqa.selenium.WebDriverException: Failed to execute command browser goto : browser-url command failed. Reason: handset server: cannot launch application.
+Command duration or timeout: 12.55 seconds
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Dell-PC', ip: '192.168.252.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{rotatable=true, deviceName=61944835, platform=ANY, executionId=eugene.yu@ymcsolutions.com_PerfectoMobileDriver_15-06-13_01_45_18_17617, password=ymcDemo321!, webdriver.remote.sessionid=ca7d1756-be4b-4e2a-9f30-84538e3ef13e, host=partners.perfectomobile.com, locationContextEnabled=true, browserName=mobileOS, takesScreenshot=true, javascriptEnabled=true, model=Galaxy S5, reportKey=PRIVATE:PerfectoMobileDriver/PerfectoMobileDriver_15-06-13_01_45_18_17617.xml, platformName=Android, user=eugene.yu@ymcsolutions.com, cssSelectorsEnabled=true}]
+Session ID: ca7d1756-be4b-4e2a-9f30-84538e3ef13e
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+  org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+  utilities.library.goToPage(library.java:313)
+  AmazonTesting.AmazonTestSystem.cleanUpCart(AmazonTestSystem.java:116)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.44.0', revision: '76d78cf323ce037c5f92db6c1bba601c2ac43ad8', time: '2014-10-23 13:11:40'
+System info: host: 'Dell-PC', ip: '192.168.252.93', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: driver.version: RemoteWebDriver
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+  org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+  utilities.library.goToPage(library.java:313)
+  AmazonTesting.AmazonTestSystem.cleanUpCart(AmazonTestSystem.java:116)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+  org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+  org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+  org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+  java.util.concurrent.FutureTask.run(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+Caused by: com.perfectomobile.httpclient.HttpClientException: Failed to execute command browser goto : browser-url command failed. Reason: handset server: cannot launch application.
+  com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:95)
+  com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:519)
+  com.perfectomobile.selenium.MobileApplication.processResponse(MobileApplication.java:52)
+  com.perfectomobile.selenium.dom.MobileDOMApplication.processResponse(MobileDOMApplication.java:455)
+  com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:60)
+  com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:52)
+  com.perfectomobile.selenium.dom.MobileDOMApplication.get(MobileDOMApplication.java:82)
+  com.perfectomobile.selenium.server.PerfectoMobileDriver.get(PerfectoMobileDriver.java:547)
+  sun.reflect.GeneratedMethodAccessor5468.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:606)
+  org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
+  com.sun.proxy.$Proxy220.get(Unknown Source)
+  org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:159)
+  org.openqa.selenium.remote.server.handler.ChangeUrl.call(ChangeUrl.java:39)
+  org.openqa.selenium.remote.server.handler.ChangeUrl.call(ChangeUrl.java:24)
+  java.util.concurrent.FutureTask.run(FutureTask.java:262)
+  org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+  java.lang.Thread.run(Thread.java:744)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

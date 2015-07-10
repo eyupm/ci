@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Galaxy 4G"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="42.219">
+  <properties />
+  
+  
+            <testcase name="OrderBook" time="42.219" classname="AmazonTesting.AmazonTestSystem" />
+      
+</testsuite>

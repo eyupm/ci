@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="targetEnvironment" value="Chrome"/>
+  <parameter name="networkLatency" value=""/>
+  <parameter name="network" value=""/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test Galaxy 4G(failed)" parallel="tests">
+    <parameter name="targetEnvironment" value="Galaxy S5"/>
+    <parameter name="networkLatency" value="200"/>
+    <parameter name="network" value="4G"/>
+    <classes>
+      <class name="AmazonTesting.AmazonTestSystem">
+        <methods>
+          <include name="OrderBook"/>
+          <include name="cleanUpCart"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- AmazonTesting.AmazonTestSystem -->
+    </classes>
+  </test> <!-- Test Galaxy 4G(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<u><b>OrderBook_Chrome__Step1_goToPage: http://amazon.com_Amazon.com</b></u><br><a href="./screenshots/OrderBook_Chrome__Step1_10_Jul_2015__12_27_39PM.png"><img src="./screenshots/OrderBook_Chrome__Step1_10_Jul_2015__12_27_39PM.png" alt=""height='100' width='100'/> <br />]]>
+    </line>
+    <line>
+      <![CDATA[<u><b>OrderBook_Galaxy S5_4G_Step1_goToPage: http://amazon.com_Amazon.com</b></u><br><a href="./screenshots/OrderBook_Galaxy S5_4G_Step1_10_Jul_2015__12_27_51PM.png"><img src="./screenshots/OrderBook_Galaxy S5_4G_Step1_10_Jul_2015__12_27_51PM.png" alt=""height='100' width='100'/> <br />]]>
+    </line>
+    <line>
+      <![CDATA[<a href="./screenshots/10_Jul_2015__12_28_02PM.pdf">Perfecto Report</a><br />]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45614" started-at="2015-07-10T19:27:21Z" finished-at="2015-07-10T19:28:07Z">
+    <groups>
+    </groups>
+    <test name="Test Chrome" duration-ms="22888" started-at="2015-07-10T19:27:21Z" finished-at="2015-07-10T19:27:44Z">
+      <class name="AmazonTesting.AmazonTestSystem">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AmazonTesting.AmazonTestSystem@16d04d3d]" name="beforeTest" is-config="true" duration-ms="30" started-at="2015-07-10T12:27:21Z" finished-at="2015-07-10T12:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="getTestMethod(java.lang.reflect.Method)[pri:0, instance:AmazonTesting.AmazonTestSystem@16d04d3d]" name="getTestMethod" is-config="true" duration-ms="0" started-at="2015-07-10T12:27:22Z" finished-at="2015-07-10T12:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void AmazonTesting.AmazonTestSystem.OrderBook() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestMethod -->
+        <test-method status="PASS" signature="OrderBook()[pri:0, instance:AmazonTesting.AmazonTestSystem@16d04d3d]" name="OrderBook" duration-ms="22832" started-at="2015-07-10T12:27:22Z" finished-at="2015-07-10T12:27:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<u><b>OrderBook_Chrome__Step1_goToPage: http://amazon.com_Amazon.com</b></u><br><a href="./screenshots/OrderBook_Chrome__Step1_10_Jul_2015__12_27_39PM.png"><img src="./screenshots/OrderBook_Chrome__Step1_10_Jul_2015__12_27_39PM.png" alt=""height='100' width='100'/> <br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OrderBook -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AmazonTesting.AmazonTestSystem@16d04d3d]" name="afterTest" is-config="true" duration-ms="5" started-at="2015-07-10T12:27:44Z" finished-at="2015-07-10T12:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- AmazonTesting.AmazonTestSystem -->
+    </test> <!-- Test Chrome -->
+    <test name="Test Galaxy 4G" duration-ms="45614" started-at="2015-07-10T19:27:21Z" finished-at="2015-07-10T19:28:07Z">
+      <class name="AmazonTesting.AmazonTestSystem">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AmazonTesting.AmazonTestSystem@318ba8c8]" name="beforeTest" is-config="true" duration-ms="21" started-at="2015-07-10T12:27:21Z" finished-at="2015-07-10T12:27:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Galaxy S5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4G]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="getTestMethod(java.lang.reflect.Method)[pri:0, instance:AmazonTesting.AmazonTestSystem@318ba8c8]" name="getTestMethod" is-config="true" duration-ms="0" started-at="2015-07-10T12:27:22Z" finished-at="2015-07-10T12:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void AmazonTesting.AmazonTestSystem.OrderBook() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestMethod -->
+        <test-method status="PASS" signature="OrderBook()[pri:0, instance:AmazonTesting.AmazonTestSystem@318ba8c8]" name="OrderBook" duration-ms="45565" started-at="2015-07-10T12:27:22Z" finished-at="2015-07-10T12:28:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<u><b>OrderBook_Galaxy S5_4G_Step1_goToPage: http://amazon.com_Amazon.com</b></u><br><a href="./screenshots/OrderBook_Galaxy S5_4G_Step1_10_Jul_2015__12_27_51PM.png"><img src="./screenshots/OrderBook_Galaxy S5_4G_Step1_10_Jul_2015__12_27_51PM.png" alt=""height='100' width='100'/> <br />]]>
+            </line>
+            <line>
+              <![CDATA[<a href="./screenshots/10_Jul_2015__12_28_02PM.pdf">Perfecto Report</a><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OrderBook -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:AmazonTesting.AmazonTestSystem@318ba8c8]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-07-10T12:28:07Z" finished-at="2015-07-10T12:28:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- AmazonTesting.AmazonTestSystem -->
+    </test> <!-- Test Galaxy 4G -->
+  </suite> <!-- Suite -->
+</testng-results>

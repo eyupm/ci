@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Suite" parallel="tests">
+ <listeners>
+	  <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+
+	<test name="Test Galaxy 4G">
+		<parameter name="targetEnvironment" value="Galaxy S5" />
+		<parameter name="network" value="4G" />
+		<parameter name="networkLatency" value="200" />
+		<classes>
+			<class name="AmazonTesting.AmazonTestSystem" />
+		</classes>
+	</test>
+
+
+
+	<test name="Test Chrome">
+		<parameter name="targetEnvironment" value="Chrome" />
+		<parameter name="network" value="" />
+		<parameter name="networkLatency" value="" />
+		<classes>
+			<class name="AmazonTesting.AmazonTestSystem" />
+		</classes>
+	</test>
+
+  <!-- Test -->
+</suite> <!-- Suite -->
