@@ -17,7 +17,7 @@ import pages.*;
 import utilities.*;
 
 
-//Add Github
+//Add Github2
 
 public class AmazonTestSystem {
 	private RemoteWebDriver driver;
