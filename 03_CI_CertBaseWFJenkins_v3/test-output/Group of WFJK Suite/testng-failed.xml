@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Group of WFJK Suite]" parallel="tests">
+  <parameter name="targetEnvironment" value="Android"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="CI Certificate: WFJK - Android(failed)" parallel="tests">
+    <parameter name="targetEnvironment" value="Android"/>
+    <classes>
+      <class name="test.MainTestWF">
+        <methods>
+          <include name="selectSignonOption"/>
+          <include name="tearDown"/>
+          <include name="tearDownAfterClass"/>
+          <include name="verifySignin"/>
+          <include name="setUp"/>
+          <include name="openHomepage"/>
+          <include name="changeNetwork"/>
+          <include name="testTearDown"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="setUpBeforeClass"/>
+          <include name="closeWebDriver"/>
+        </methods>
+      </class> <!-- test.MainTestWF -->
+    </classes>
+  </test> <!-- CI Certificate: WFJK - Android(failed) -->
+</suite> <!-- Failed suite [Group of WFJK Suite] -->

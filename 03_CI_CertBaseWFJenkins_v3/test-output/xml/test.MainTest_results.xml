@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sign up for home delivery - Chrome"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.591">
+  <properties />
+  
+  
+            <testcase name="openHomepage" time="6.272" classname="test.MainTest" />
+                <testcase name="changeNetwork" time="0.020" classname="test.MainTest" />
+                <testcase name="enterZipCode" time="3.316" classname="test.MainTest" />
+                <testcase name="testTearDown" time="1.813" classname="test.MainTest" />
+                <testcase name="selectLength" time="0.648" classname="test.MainTest" />
+                <testcase name="enterDetails" time="1.522" classname="test.MainTest" />
+      
+</testsuite>

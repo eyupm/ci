@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="5" name="Group of WFJK Suite v3" parallel="tests">
+
+   <listeners>
+	  <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  
+ 
+ 	<test name="CI Certificate: WFJK v3 - Chrome">
+		<parameter name="targetEnvironment" value="Chrome" />
+		<classes>
+			<class name="test.MainTestWF">
+				<methods>
+					<include name="test00_wf" />
+					<include name="test11_wf" />
+					<include name="test22_wf" />					
+					<include name="testTearDown" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		
+	<test name="CI Certificate: WFJK v3 - Android HTC">
+		<parameter name="targetEnvironment" value="Android HTC" />
+		<classes>
+			<class name="test.MainTestWF">
+				<methods>
+					<include name="test00_wf" />
+					<include name="test11_wf" />
+					<include name="test22_wf" />					
+					<include name="testTearDown" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="CI Certificate: WFJK v3 - Android Galaxy Tab 2">
+		<parameter name="targetEnvironment" value="Android Galaxy Tab 2" />
+		<classes>
+			<class name="test.MainTestWF">
+				<methods>
+					<include name="test00_wf" />
+					<include name="test11_wf" />
+					<include name="test22_wf" />					
+					<include name="testTearDown" />
+				</methods>
+			</class>
+		</classes>
+	</test>		
+	
+		
+	<test name="CI Certificate: WFJK v3 - iPad Mini 2">
+		<parameter name="targetEnvironment" value="iPad Mini 2" />
+		<classes>
+			<class name="test.MainTestWF">
+			    <methods>
+					<include name="test00_wf" />					
+					<include name="testTearDown" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		
+		
+</suite>

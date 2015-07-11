@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href="C:\eclipseLuna\workspace\03_CI_CertBaseWFJenkins_v3/surefire-reports/html/screenshots/02_Jul_2015__06_16_33AM.pdf">Perfecto Report</a><br />]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\eclipseLuna\workspace\03_CI_CertBaseWFJenkins_v3/surefire-reports/html/screenshots/02_Jul_2015__06_16_55AM.pdf">Perfecto Report</a><br />]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\eclipseLuna\workspace\03_CI_CertBaseWFJenkins_v3/surefire-reports/html/screenshots/02_Jul_2015__06_16_57AM.pdf">Perfecto Report</a><br />]]>
+    </line>
+  </reporter-output>
+  <suite name="Group of WFJK Suite v3" duration-ms="393309" started-at="2015-07-02T13:13:55Z" finished-at="2015-07-02T13:20:28Z">
+    <groups>
+    </groups>
+    <test name="CI Certificate: WFJK v3 - Android Galaxy Tab 2" duration-ms="213185" started-at="2015-07-02T13:13:55Z" finished-at="2015-07-02T13:17:28Z">
+      <class name="test.MainTestWF">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:test.MainTestWF@86be70a]" name="beforeTest" is-config="true" duration-ms="36911" started-at="2015-07-02T06:13:55Z" finished-at="2015-07-02T06:14:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android Galaxy Tab 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:test.MainTestWF@86be70a]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2015-07-02T06:14:32Z" finished-at="2015-07-02T06:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.MainTestWF@86be70a]" name="setUp" is-config="true" duration-ms="1" started-at="2015-07-02T06:14:32Z" finished-at="2015-07-02T06:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test00_wf()[pri:0, instance:test.MainTestWF@86be70a]" name="test00_wf" duration-ms="33506" started-at="2015-07-02T06:14:32Z" finished-at="2015-07-02T06:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test00_wf -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.MainTestWF@86be70a]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-07-02T06:15:07Z" finished-at="2015-07-02T06:15:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="test11_wf()[pri:0, instance:test.MainTestWF@86be70a]" name="test11_wf" duration-ms="31960" started-at="2015-07-02T06:15:07Z" finished-at="2015-07-02T06:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11_wf -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.MainTestWF@86be70a]" name="setUp" is-config="true" duration-ms="0" started-at="2015-07-02T06:15:07Z" finished-at="2015-07-02T06:15:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.MainTestWF@86be70a]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-07-02T06:15:39Z" finished-at="2015-07-02T06:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="test22_wf()[pri:0, instance:test.MainTestWF@86be70a]" name="test22_wf" duration-ms="33040" started-at="2015-07-02T06:15:39Z" finished-at="2015-07-02T06:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test22_wf -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.MainTestWF@86be70a]" name="setUp" is-config="true" duration-ms="0" started-at="2015-07-02T06:15:39Z" finished-at="2015-07-02T06:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.MainTestWF@86be70a]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-07-02T06:16:12Z" finished-at="2015-07-02T06:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.MainTestWF@86be70a]" name="setUp" is-config="true" duration-ms="0" started-at="2015-07-02T06:16:12Z" finished-at="2015-07-02T06:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTearDown()[pri:0, instance:test.MainTestWF@86be70a]" name="testTearDown" duration-ms="75909" started-at="2015-07-02T06:16:12Z" finished-at="2015-07-02T06:17:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\eclipseLuna\workspace\03_CI_CertBaseWFJenkins_v3/surefire-reports/html/screenshots/02_Jul_2015__06_16_33AM.pdf">Perfecto Report</a><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.MainTestWF@86be70a]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-07-02T06:17:28Z" finished-at="2015-07-02T06:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:test.MainTestWF@86be70a]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2015-07-02T06:17:28Z" finished-at="2015-07-02T06:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+        <test-method status="PASS" signature="closeWebDriver()[pri:0, instance:test.MainTestWF@86be70a]" name="closeWebDriver" is-config="true" duration-ms="0" started-at="2015-07-02T06:17:28Z" finished-at="2015-07-02T06:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+      </class> <!-- test.MainTestWF -->
+    </test> <!-- CI Certificate: WFJK v3 - Android Galaxy Tab 2 -->
+    <test name="CI Certificate: WFJK v3 - Android HTC" duration-ms="245082" started-at="2015-07-02T13:13:55Z" finished-at="2015-07-02T13:18:00Z">
+      <class name="test.MainTestWF">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:test.MainTestWF@17d677df]" name="beforeTest" is-config="true" duration-ms="40550" started-at="2015-07-02T06:13:55Z" finished-at="2015-07-02T06:14:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android HTC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:test.MainTestWF@17d677df]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2015-07-02T06:14:35Z" finished-at="2015-07-02T06:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.MainTestWF@17d677df]" name="setUp" is-config="true" duration-ms="1" started-at="2015-07-02T06:14:35Z" finished-at="2015-07-02T06:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test00_wf()[pri:0, instance:test.MainTestWF@17d677df]" name="test00_wf" duration-ms="45150" started-at="2015-07-02T06:14:35Z" finished-at="2015-07-02T06:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test00_wf -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.MainTestWF@17d677df]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-07-02T06:15:21Z" finished-at="2015-07-02T06:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.MainTestWF@17d677df]" name="setUp" is-config="true" duration-ms="0" started-at="2015-07-02T06:15:21Z" finished-at="2015-07-02T06:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test11_wf()[pri:0, instance:test.MainTestWF@17d677df]" name="test11_wf" duration-ms="29474" started-at="2015-07-02T06:15:21Z" finished-at="2015-07-02T06:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11_wf -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.MainTestWF@17d677df]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-07-02T06:15:50Z" finished-at="2015-07-02T06:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.MainTestWF@17d677df]" name="setUp" is-config="true" duration-ms="0" started-at="2015-07-02T06:15:50Z" finished-at="2015-07-02T06:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test22_wf()[pri:0, instance:test.MainTestWF@17d677df]" name="test22_wf" duration-ms="38465" started-at="2015-07-02T06:15:50Z" finished-at="2015-07-02T06:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test22_wf -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.MainTestWF@17d677df]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-07-02T06:16:28Z" finished-at="2015-07-02T06:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.MainTestWF@17d677df]" name="setUp" is-config="true" duration-ms="0" started-at="2015-07-02T06:16:28Z" finished-at="2015-07-02T06:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTearDown()[pri:0, instance:test.MainTestWF@17d677df]" name="testTearDown" duration-ms="91366" started-at="2015-07-02T06:16:28Z" finished-at="2015-07-02T06:18:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\eclipseLuna\workspace\03_CI_CertBaseWFJenkins_v3/surefire-reports/html/screenshots/02_Jul_2015__06_16_55AM.pdf">Perfecto Report</a><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.MainTestWF@17d677df]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-07-02T06:18:00Z" finished-at="2015-07-02T06:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:test.MainTestWF@17d677df]" name="tearDownAfterClass" is-config="true" duration-ms="3" started-at="2015-07-02T06:18:00Z" finished-at="2015-07-02T06:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+        <test-method status="PASS" signature="closeWebDriver()[pri:0, instance:test.MainTestWF@17d677df]" name="closeWebDriver" is-config="true" duration-ms="1" started-at="2015-07-02T06:18:00Z" finished-at="2015-07-02T06:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+      </class> <!-- test.MainTestWF -->
+    </test> <!-- CI Certificate: WFJK v3 - Android HTC -->
+    <test name="CI Certificate: WFJK v3 - iPad Mini 2" duration-ms="393309" started-at="2015-07-02T13:13:55Z" finished-at="2015-07-02T13:20:28Z">
+      <class name="test.MainTestWF">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:test.MainTestWF@1d29cf23]" name="beforeTest" is-config="true" duration-ms="53665" started-at="2015-07-02T06:13:55Z" finished-at="2015-07-02T06:14:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPad Mini 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:test.MainTestWF@1d29cf23]" name="setUpBeforeClass" is-config="true" duration-ms="3" started-at="2015-07-02T06:14:48Z" finished-at="2015-07-02T06:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.MainTestWF@1d29cf23]" name="setUp" is-config="true" duration-ms="1" started-at="2015-07-02T06:14:48Z" finished-at="2015-07-02T06:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test00_wf()[pri:0, instance:test.MainTestWF@1d29cf23]" name="test00_wf" duration-ms="36860" started-at="2015-07-02T06:14:48Z" finished-at="2015-07-02T06:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test00_wf -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.MainTestWF@1d29cf23]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-07-02T06:15:25Z" finished-at="2015-07-02T06:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.MainTestWF@1d29cf23]" name="setUp" is-config="true" duration-ms="0" started-at="2015-07-02T06:15:25Z" finished-at="2015-07-02T06:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test11_wf()[pri:0, instance:test.MainTestWF@1d29cf23]" name="test11_wf" duration-ms="32325" started-at="2015-07-02T06:15:25Z" finished-at="2015-07-02T06:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11_wf -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.MainTestWF@1d29cf23]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-07-02T06:15:58Z" finished-at="2015-07-02T06:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="test22_wf()[pri:0, instance:test.MainTestWF@1d29cf23]" name="test22_wf" duration-ms="36132" started-at="2015-07-02T06:15:58Z" finished-at="2015-07-02T06:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test22_wf -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.MainTestWF@1d29cf23]" name="setUp" is-config="true" duration-ms="0" started-at="2015-07-02T06:15:58Z" finished-at="2015-07-02T06:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.MainTestWF@1d29cf23]" name="tearDown" is-config="true" duration-ms="3" started-at="2015-07-02T06:16:34Z" finished-at="2015-07-02T06:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.MainTestWF@1d29cf23]" name="setUp" is-config="true" duration-ms="0" started-at="2015-07-02T06:16:34Z" finished-at="2015-07-02T06:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTearDown()[pri:0, instance:test.MainTestWF@1d29cf23]" name="testTearDown" duration-ms="234257" started-at="2015-07-02T06:16:34Z" finished-at="2015-07-02T06:20:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\eclipseLuna\workspace\03_CI_CertBaseWFJenkins_v3/surefire-reports/html/screenshots/02_Jul_2015__06_16_57AM.pdf">Perfecto Report</a><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:test.MainTestWF@1d29cf23]" name="tearDownAfterClass" is-config="true" duration-ms="0" started-at="2015-07-02T06:20:28Z" finished-at="2015-07-02T06:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.MainTestWF@1d29cf23]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-07-02T06:20:28Z" finished-at="2015-07-02T06:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeWebDriver()[pri:0, instance:test.MainTestWF@1d29cf23]" name="closeWebDriver" is-config="true" duration-ms="0" started-at="2015-07-02T06:20:28Z" finished-at="2015-07-02T06:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+      </class> <!-- test.MainTestWF -->
+    </test> <!-- CI Certificate: WFJK v3 - iPad Mini 2 -->
+  </suite> <!-- Group of WFJK Suite v3 -->
+</testng-results>

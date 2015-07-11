@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Group of group Suite]">
+  <parameter name="targetEnvironment" value="Apple iOS"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="CI Certificate: WF - Android(failed)">
+    <parameter name="targetEnvironment" value="Android"/>
+    <classes>
+      <class name="test.MainTestWF">
+        <methods>
+          <include name="tearDownAfterClass"/>
+          <include name="tearDownAfterClass"/>
+          <include name="tearDownAfterClass"/>
+          <include name="verifySignin"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="openHomepage"/>
+          <include name="changeNetwork"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="setUpBeforeClass"/>
+          <include name="setUpBeforeClass"/>
+          <include name="setUpBeforeClass"/>
+          <include name="selectSignonOption"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="testTearDown"/>
+          <include name="closeWebDriver"/>
+          <include name="closeWebDriver"/>
+          <include name="closeWebDriver"/>
+        </methods>
+      </class> <!-- test.MainTestWF -->
+    </classes>
+  </test> <!-- CI Certificate: WF - Android(failed) -->
+</suite> <!-- Failed suite [Group of group Suite] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Group of group Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.017">
+  <properties />
+  
+  
+            <testcase name="testMethodThree" time="0.000" classname="test.RegularExpressionGroupTest" />
+                <testcase name="testMethodFour" time="0.015" classname="test.RegularExpressionGroupTest" />
+                <testcase name="testMethodOne" time="0.001" classname="test.RegularExpressionGroupTest" />
+                <testcase name="testMethodTwo" time="0.001" classname="test.RegularExpressionGroupTest" />
+      
+</testsuite>
