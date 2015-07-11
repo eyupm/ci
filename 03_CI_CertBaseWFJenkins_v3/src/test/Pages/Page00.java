@@ -97,7 +97,7 @@ public class Page00 {
 	
     @Attachment
     public byte[] takeScreenshot() {
-        System.out.println("Taking screenshot");
+        System.out.println("Taking screenshot hahaha");
         return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
 
