@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Group of WFJK Suite v3]" parallel="tests">
-  <parameter name="targetEnvironment" value="Android Galaxy Tab 2"/>
+  <parameter name="targetEnvironment" value="iPad Mini 2"/>
   <listeners>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test name="CI Certificate: WFJK v3 - iOS 5S(failed)" parallel="tests">
-    <parameter name="targetEnvironment" value="iOS 5S"/>
+  <test name="CI Certificate: WFJK v3 - Android HTC(failed)" parallel="tests">
+    <parameter name="targetEnvironment" value="Android HTC"/>
     <classes>
       <class name="test.MainTestWF">
         <methods>
@@ -17,6 +17,8 @@
           <include name="setUp"/>
           <include name="setUp"/>
           <include name="setUp"/>
+          <include name="test11_wf"/>
+          <include name="beforeTest"/>
           <include name="beforeTest"/>
           <include name="beforeTest"/>
           <include name="beforeTest"/>
@@ -28,11 +30,12 @@
           <include name="tearDown"/>
           <include name="test00_wf"/>
           <include name="test22_wf"/>
+          <include name="testTearDown"/>
           <include name="closeWebDriver"/>
           <include name="closeWebDriver"/>
           <include name="closeWebDriver"/>
         </methods>
       </class> <!-- test.MainTestWF -->
     </classes>
-  </test> <!-- CI Certificate: WFJK v3 - iOS 5S(failed) -->
+  </test> <!-- CI Certificate: WFJK v3 - Android HTC(failed) -->
 </suite> <!-- Failed suite [Group of WFJK Suite v3] -->

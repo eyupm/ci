@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CI Certificate: WFJK v3 - iPad Mini 2"
+<testsuite name="CI Certificate: WFJK v3 - Android Galaxy Tab 2"
            tests="4"
            failures="0"
            errors="0"
            skipped="0"
-           time="339.574">
+           time="132.598">
   <properties />
   
   
-            <testcase name="test00_wf" time="36.860" classname="test.MainTestWF" />
-                <testcase name="test22_wf" time="36.132" classname="test.MainTestWF" />
-                <testcase name="testTearDown" time="234.257" classname="test.MainTestWF" />
-                <testcase name="test11_wf" time="32.325" classname="test.MainTestWF" />
+            <testcase name="test22_wf" time="26.409" classname="test.MainTestWF" />
+                <testcase name="test00_wf" time="33.798" classname="test.MainTestWF" />
+                <testcase name="test11_wf" time="21.759" classname="test.MainTestWF" />
+                <testcase name="testTearDown" time="50.632" classname="test.MainTestWF" />
       
 </testsuite>

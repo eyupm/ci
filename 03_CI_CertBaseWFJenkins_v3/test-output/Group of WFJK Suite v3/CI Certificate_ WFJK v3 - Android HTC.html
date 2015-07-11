@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>CI Certificate: WFJK v3 - Android HTC</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/4</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 02 06:13:55 PDT 2015</td>
+<td>Started on:</td><td>Fri Jul 10 18:35:11 PDT 2015</td>
 </tr>
-<tr><td>Total time:</td><td>245 seconds (245082 ms)</td>
+<tr><td>Total time:</td><td>2 seconds (2177 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,181 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.MainTestWF.beforeTest()'><b>beforeTest</b><br>Test class: test.MainTestWF<br>Parameters: Android HTC</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to execute command handset open : device with ID HT34HW904064 is not connected
+Command duration or timeout: 1.70 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.252.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
+	at test.MainTestWF.beforeTest(MainTestWF.java:169)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Failed to execute command handset open : device with ID HT34HW904064 is not connected
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.252.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: driver.version: PerfectoMobileDriver
+	at com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:95)
+	at com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:556)
+	at com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:60)
+	at com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:52)
+	at com.perfectomobile.selenium.MobileDevice.open(MobileDevice.java:114)
+	at com.perfectomobile.selenium.MobileDevice.open(MobileDevice.java:106)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.&lt;init&gt;(PerfectoMobileDriver.java:133)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.callConstructor(DefaultDriverProvider.java:85)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.newInstance(DefaultDriverProvider.java:79)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:62)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:222)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:209)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1185186644", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1185186644'><pre>org.openqa.selenium.WebDriverException: Failed to execute command handset open : device with ID HT34HW904064 is not connected
+Command duration or timeout: 1.70 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.252.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:153)
+	at test.MainTestWF.beforeTest(MainTestWF.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.WebDriverException: Failed to execute command handset open : device with ID HT34HW904064 is not connected
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8&apos;, time: &apos;2015-02-26 23:59:50&apos;
+System info: host: &apos;Dell-PC&apos;, ip: &apos;192.168.252.205&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_31&apos;
+Driver info: driver.version: PerfectoMobileDriver
+	at com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:95)
+	at com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:556)
+	at com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:60)
+	at com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:52)
+	at com.perfectomobile.selenium.MobileDevice.open(MobileDevice.java:114)
+	at com.perfectomobile.selenium.MobileDevice.open(MobileDevice.java:106)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.&lt;init&gt;(PerfectoMobileDriver.java:133)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.callConstructor(DefaultDriverProvider.java:85)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.newInstance(DefaultDriverProvider.java:79)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:62)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:222)
+	at org.openqa.selenium.remote.server.DefaultSession$BrowserCreator.call(DefaultSession.java:209)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.MainTestWF.setUpBeforeClass()'><b>setUpBeforeClass</b><br>Test class: test.MainTestWF</td>
+<td></td>
+<td>0</td>
+<td>test.MainTestWF@17d677df</td></tr>
+<tr>
+<td title='test.MainTestWF.setUp()'><b>setUp</b><br>Test class: test.MainTestWF</td>
+<td></td>
+<td>0</td>
+<td>test.MainTestWF@17d677df</td></tr>
+<tr>
+<td title='test.MainTestWF.setUp()'><b>setUp</b><br>Test class: test.MainTestWF</td>
+<td></td>
+<td>0</td>
+<td>test.MainTestWF@17d677df</td></tr>
+<tr>
+<td title='test.MainTestWF.setUp()'><b>setUp</b><br>Test class: test.MainTestWF</td>
+<td></td>
+<td>0</td>
+<td>test.MainTestWF@17d677df</td></tr>
+<tr>
+<td title='test.MainTestWF.setUp()'><b>setUp</b><br>Test class: test.MainTestWF</td>
+<td></td>
+<td>0</td>
+<td>test.MainTestWF@17d677df</td></tr>
+<tr>
+<td title='test.MainTestWF.tearDown()'><b>tearDown</b><br>Test class: test.MainTestWF</td>
+<td></td>
+<td>0</td>
+<td>test.MainTestWF@17d677df</td></tr>
+<tr>
+<td title='test.MainTestWF.tearDown()'><b>tearDown</b><br>Test class: test.MainTestWF</td>
+<td></td>
+<td>0</td>
+<td>test.MainTestWF@17d677df</td></tr>
+<tr>
+<td title='test.MainTestWF.tearDown()'><b>tearDown</b><br>Test class: test.MainTestWF</td>
+<td></td>
+<td>0</td>
+<td>test.MainTestWF@17d677df</td></tr>
+<tr>
+<td title='test.MainTestWF.tearDown()'><b>tearDown</b><br>Test class: test.MainTestWF</td>
+<td></td>
+<td>0</td>
+<td>test.MainTestWF@17d677df</td></tr>
+<tr>
+<td title='test.MainTestWF.tearDownAfterClass()'><b>tearDownAfterClass</b><br>Test class: test.MainTestWF</td>
+<td></td>
+<td>0</td>
+<td>test.MainTestWF@17d677df</td></tr>
+<tr>
+<td title='test.MainTestWF.closeWebDriver()'><b>closeWebDriver</b><br>Test class: test.MainTestWF</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -77,29 +250,22 @@ function toggleAllBoxes() {
 <tr>
 <td title='test.MainTestWF.test00_wf()'><b>test00_wf</b><br>Test class: test.MainTestWF</td>
 <td></td>
-<td>45</td>
+<td>0</td>
 <td>test.MainTestWF@17d677df</td></tr>
 <tr>
 <td title='test.MainTestWF.test11_wf()'><b>test11_wf</b><br>Test class: test.MainTestWF</td>
 <td></td>
-<td>29</td>
+<td>0</td>
 <td>test.MainTestWF@17d677df</td></tr>
 <tr>
 <td title='test.MainTestWF.test22_wf()'><b>test22_wf</b><br>Test class: test.MainTestWF</td>
 <td></td>
-<td>38</td>
+<td>0</td>
 <td>test.MainTestWF@17d677df</td></tr>
 <tr>
-<td title='test.MainTestWF.testTearDown()'><b>testTearDown</b><br>Test class: test.MainTestWF<br/>
-<a href="#Output-1879905971" onClick='toggleBox("Output-1879905971", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1879905971" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1879905971">
-<a href="C:\eclipseLuna\workspace\03_CI_CertBaseWFJenkins_v3/surefire-reports/html/screenshots/02_Jul_2015__06_16_55AM.pdf">Perfecto Report</a><br /><br/>
-</div>
-</td>
+<td title='test.MainTestWF.testTearDown()'><b>testTearDown</b><br>Test class: test.MainTestWF</td>
 <td></td>
-<td>91</td>
+<td>0</td>
 <td>test.MainTestWF@17d677df</td></tr>
 </table><p>
 </body>

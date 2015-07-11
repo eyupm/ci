@@ -1,4 +1,4 @@
-//test git2U
+//test git2U test
 
 package test;
 
